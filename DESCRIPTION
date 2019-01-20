@@ -1,0 +1,11 @@
+Package: dcastroFirstRDummyPackage
+Type: Package
+Title: Paquete desarrollado para el ejercicio extra de R
+Version: 1.0.0
+Author: Diego Castro Viadero
+Maintainer: Diego Castro Viadero <diegocastroviadero19@gmail.com>
+Description: Este paquete contiene unas funciones tontas sin mucha utilidad.
+    Su único propósito es cumplir con un trabajo solicitado en la asignatura de preparación y limpieza de datos del master de Big Data & Data Science de la U-TAD.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
