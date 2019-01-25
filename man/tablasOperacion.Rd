@@ -14,5 +14,10 @@ Función que recupera las tablas de una operación del api del INE
 Diego Castro
 }
 \examples{
-df <- tablasOperacion(22)
+# Recuperación de operaciones
+o <- operacionesINE()
+# Se filta una operación
+o[with(o, grepl("Padrón", Nombre, ignore.case = TRUE)), ]
+# Se recuperan las tablas de una operación
+to <- tablasOperacion(22)
 }
