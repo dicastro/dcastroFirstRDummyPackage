@@ -11,5 +11,6 @@ Función que recupera las operaciones del api del INE
 Diego Castro
 }
 \examples{
-df <- operacionesINE()
+# Recuperación de operacione
+o <- operacionesINE()
 }
